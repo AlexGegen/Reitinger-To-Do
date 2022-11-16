@@ -22,6 +22,7 @@ export default {
 
     function createItem(item) {
       console.log('Create Item ...' + item);
+      data.push(item);
     }
 
     return {
